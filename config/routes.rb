@@ -1,4 +1,6 @@
 Wictasks::Application.routes.draw do
+  get "pages/home"
+
   resources :tasks
 
   # The priority is based upon order of creation:
