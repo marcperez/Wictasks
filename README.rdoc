@@ -1,3 +1,5 @@
 == Welcome to WicTasks
 
 WicTasks is a TO-DO app made in Ruby on Rails
+
+You can find a demo here: http://wictasks.heroku.com/
