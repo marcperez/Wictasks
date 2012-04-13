@@ -20,6 +20,10 @@
           <ul class="nav">
             <li><%= link_to "List Taks", tasks_path %></li>
           </ul>
+          <ul class="nav pull-right">
+            <%= render 'users/menu/registration_items' %>
+            <%= render 'users/menu/login_items' %>
+          </ul>
         </div>
       </div>
     </div>
@@ -30,12 +34,12 @@
       <div class="span12">
         <% if notice %>
           <div class="alert alert-success">
-            <p><%= notice %></p>
+            <%= notice %>
           </div>
         <% end %>
         <% if alert %>
           <div class="alert alert-block">
-            <p><%= alert %></p>
+            <%= alert %>
           </div>
         <% end %>
       </div>
